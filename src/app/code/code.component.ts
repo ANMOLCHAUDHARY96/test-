@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
   <h4>{{name.toUpperCase()}}<h4>
 
   <h4>{{site}}</h4>
-
+  
   <input [id]="myid" type="text" value ="kellton">
 
   <input [disabled]="isdis" id="{{myid}}" type="text" value="kellton"> 
@@ -19,7 +19,8 @@ import { Component, OnInit } from '@angular/core';
   <button (click)="onclick($event)">here</button> {{abc}} 
   
   <input [(ngModel)]="name" type=text>
-  <h4 *ngIf="true">Code eva</h4>`
+  <h4 *ngIf="true">Code eva</h4> 
+  `
 ,
 
   
